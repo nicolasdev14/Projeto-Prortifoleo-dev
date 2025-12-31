@@ -5,12 +5,6 @@
 }
 
 :root {
-    --red: #E3646E;
-    --purple: #BB72E9;
-    --blue: #3996DB;
-    --green: #82BC4F;
-    --yellow: #EABD5F;
-    
     --gray-100: #E2E4E9;
     --gray-200: #C0C4CE;
     --gray-300: #878EA1;
@@ -18,22 +12,53 @@
     --gray-500: #16181D;
     --gray-600: #0D0E11;
 
-    --title-lg: 700 56px/120%;
-    --title-md: 700 24px/120%;
-    --title-sm: 700 16px/120%;
-    
-    --text-md: 16px/140% 400;
-    --text-sm: 14px/140% 400;
+    --title-lg: 700 56px/120% var(--ff-base);
+    --title-md: 700 24px/120% var(--ff-base);
+    --title-sm: 700 16px/120% var(--ff-base);
+
+    --text-md: 400 16px/140% var(--ff-maven);
+    --text-sm: 400 14px/140% var(--ff-maven);
 
     --ff-base: "Asap", sans-serif;
-    --ff-subtitle: 20px/120% 400 "Inconsolata", monospace;
+    --ff-subtitle: 400 20px/120% 'Inconsolata', monospace;
     --ff-maven: "Maven Pro", sans-serif;
-
-
-
-
 }
 
 html {
     font-family: "Asap", sans-serif;
+    overflow-x: hidden;
 }
+
+body {
+    background-color: #16181D;
+}
+
+h1 {
+    font: var(--title-lg);
+    color: var(--gray-100);
+}
+
+h1, h2, h3 {
+    font-family: var(--ff-base);
+}
+
+h2 {
+    font: var(--ff-subtitle);
+    color: var(--gray-200);
+}
+
+span {
+    font: var(--ff-subtitle);
+    color:  #E3646E;
+}
+
+spanx {
+    font: var(--text-md);
+    color: var(--gray-200);
+}
+
+p {
+    font: var(--text-sm);
+    color: var(--gray-300);
+}
+

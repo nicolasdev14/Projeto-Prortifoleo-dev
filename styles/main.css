@@ -1,0 +1,77 @@
+main > section {
+    &>*:not(.image-intro) {
+        position: relative;
+        z-index: 1;
+    }
+
+    & .image-intro {
+        position: absolute;
+        inset: 0;
+        background: url("../assets/images/intro.png") no-repeat;
+        background-size: contain;
+    }
+
+    & .image-intro img {
+        width: 1920px;
+        height: 980px;
+    }
+
+    & .container { /* INFOS*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        & .infos {
+            text-align: center;
+        }
+        
+        & .infos h2:nth-child(3) {
+            padding: 3.5rem 0 0.5rem 0;
+        }
+        
+        & .infos img[src*='user.png'] {
+            padding-top: 11.71rem;
+            position: relative;
+        }
+
+        & .infos img[src*='code.png'] {
+            position: absolute;
+            right: 899px;
+            bottom: 462px;
+
+            width: 2rem;
+            height: 2rem;
+        } 
+        
+        & p {
+            max-width: 42.5rem;
+            padding: 1.25rem 0 5rem 0;
+        } 
+    }
+
+    /* CARDS */
+
+    & .container .cards {
+        display: flex;
+        flex-direction: row;
+    
+        padding-bottom: 5.87rem;
+        gap: 1rem;
+    }
+
+    & .container .card {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 62.43rem;
+        gap: 0.5rem;
+
+        background-color: var(--gray-400);
+
+        & img {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+}
