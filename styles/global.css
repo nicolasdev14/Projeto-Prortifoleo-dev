@@ -38,13 +38,18 @@ h1 {
     color: var(--gray-100);
 }
 
-h1, h2, h3 {
-    font-family: var(--ff-base);
-}
-
 h2 {
     font: var(--ff-subtitle);
     color: var(--gray-200);
+}
+
+h3 {
+    font: var(--title-md);
+    color: var(--gray-100);
+}
+
+h1, h2, h3 {
+    font-family: var(--ff-base);
 }
 
 span {
@@ -61,4 +66,13 @@ p {
     font: var(--text-sm);
     color: var(--gray-300);
 }
+
+.paddingX120 {
+    padding-inline: 7.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
 

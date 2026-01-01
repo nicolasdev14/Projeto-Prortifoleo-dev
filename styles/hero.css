@@ -1,0 +1,51 @@
+section.hero {
+    position: relative;
+    z-index: 1;
+
+    & .work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4.5rem 0 3.5rem 0;
+        gap: 0.5rem;
+    }
+
+    & .cards {
+        display: grid;
+        justify-content: center;
+        grid-template-areas: 
+        'A B C'
+        'D E F';
+        gap: 1.5rem;
+    }
+
+    & .card {
+        width: 20.62rem;
+        height: 17.5rem;
+        background-color: var(--gray-400);
+        border-radius: 12px;
+        padding: 0.7rem 0.7rem 0 0.7rem;
+        transition: scale 0.5s, filter 0.5s;
+
+       & h3 {
+        font: var(--title-sm);
+        color: var(--gray-100);
+        padding: 1rem 0 0.3rem 0;
+       }
+
+        & img {
+            width: 19.12rem;
+            height: 9.75rem;
+            border-radius: 0.5rem;
+            object-fit: cover;
+        }
+
+        &:hover {
+            scale: 1.02;
+            cursor: pointer;
+            filter: drop-shadow(-2px -14px 81px #16171b);
+        }
+    }
+
+
+}
