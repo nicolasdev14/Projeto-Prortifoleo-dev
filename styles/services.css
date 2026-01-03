@@ -1,14 +1,14 @@
 section#services {
     background-color: var(--gray-600);
     height: 30rem;
-    padding: 5.5rem 0 7.5rem 0; 
+    padding: 5.5rem 0 7.5rem 0;
 
     & .cardServices {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        
+
 
         & .card-skills {
             width: 17.5rem;
@@ -25,6 +25,12 @@ section#services {
 
             & .text-card {
                 padding-top: 1.25rem;
+
+                & h3 {
+                    font: var(--title-sm);
+                    color: var(--gray-100);
+                }
+
             }
         }
     }
@@ -34,7 +40,7 @@ section#services {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        
+
         & h3 {
             padding: 0.5rem 0 3.5rem 0;
         }
