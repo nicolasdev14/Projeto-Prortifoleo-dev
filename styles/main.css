@@ -1,7 +1,8 @@
-#home {
+#hero section {
     &>*:not(.image-intro) {
         position: relative;
         z-index: 1;
+        width: 46.87;
     }
 
     & a > img:hover {
