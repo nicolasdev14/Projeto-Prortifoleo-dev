@@ -1,0 +1,42 @@
+section#services {
+    background-color: var(--gray-600);
+    height: 30rem;
+    padding: 5.5rem 0 7.5rem 0; 
+
+    & .cardServices {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        
+
+        & .card-skills {
+            width: 17.5rem;
+            height: 9.68rem;
+            padding: 20px 20px 20px 20px;
+
+            border: 2px solid var(--gray-500);
+            border-radius: 0.75rem;
+
+            & img {
+                width: 3rem;
+                height: 3rem;
+            }
+
+            & .text-card {
+                padding-top: 1.25rem;
+            }
+        }
+    }
+
+    & .info-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        & h3 {
+            padding: 0.5rem 0 3.5rem 0;
+        }
+    }
+}
