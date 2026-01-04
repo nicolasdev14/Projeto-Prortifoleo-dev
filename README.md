@@ -1,6 +1,6 @@
 ##🌎 Projeto Portifóleo Dev | Rocketseat
 ![Descrição da Imagem](images-project/imageone.png)
-![Descrição da Imagem](images-project/imagetwo.png.png)
+![Descrição da Imagem](images-project/imagetwo.png)
 ![Descrição da Imagem](images-project/imagethree.png)
 
 ## 📝 Sobre o Projeto
